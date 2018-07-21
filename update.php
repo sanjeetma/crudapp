@@ -8,8 +8,8 @@
      $update=mysqli_query($con,$upd_query);
 	 $user = mysqli_fetch_assoc($update);
 	 echo $id;
-	 echo $user['firstname'];
-	 echo $user['lastname'];
+	 //echo $user['firstname'];
+	 //echo $user['lastname'];
  }
  ?>
  <?php
