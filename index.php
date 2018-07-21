@@ -66,6 +66,9 @@
 	<div class="jumbotron">
 		<form class="form-inline" action="register.php" method="post">
 			<div class="form-group">
+			<div class="input-group">
+					<input type="text" class="form-control" placeholder="Age" name="age"></input>
+				</div>
 				<div class="input-group">
 					<input type="text" class="form-control" placeholder="First Name" name="firstname"></input>
 				</div>
