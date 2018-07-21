@@ -49,6 +49,9 @@
 	<div class="jumbotron">
 		<form class="form-inline" method="post">
 			<div class="form-group">
+			<div class="input-group">
+            					<input value =""></input>
+            				</div>
 				<div class="input-group">
 					<input value = <?php echo $user['firstname'] ?> class="form-control" placeholder="First Name" name="firstname"></input>
 				</div>
