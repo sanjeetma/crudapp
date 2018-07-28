@@ -14,8 +14,8 @@ if($con)
     $insert=mysqli_query($con,$sql);
     $row=mysqli_fetch_assoc($insert);
     //if($row['firstname']
-    echo $row['firstname'];
-    if(!$row['password']=="" AND $row['password']==$_POST['password'] )
+    //echo $row['firstname'];
+    if(!$row['password']=="" AND $row['password']==$_POST['password'])
     {
         echo "abc";
         header("Location: main.php");
